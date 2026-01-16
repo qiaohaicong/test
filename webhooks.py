@@ -14,6 +14,7 @@ def gitlab_webhook():
 
     # 2. 获取 JSON 数据
     data = request.json
+
     print(f"接收到的JSON数据: {data}")
     if not data:
         return jsonify({"error": "No data"}), 400
