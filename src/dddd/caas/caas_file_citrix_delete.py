@@ -55,6 +55,7 @@ def main():
             try:
                 logging.info("公有云到专区" + d)
                 data = findFiles(d)
+                logging.info("测试新增一行")
                 logging.info(str(data))
                 target = d.replace("coscaas","coscaas/back_up_delete")
                 mvcmd = "mv " + d + " " + target
