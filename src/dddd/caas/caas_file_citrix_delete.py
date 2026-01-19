@@ -35,11 +35,6 @@ def main():
                  "/coscaas/aoo5szh_t",
                  "/coscaas/aqw2szh_t",
                  "/coscaas/arl2kor_t",
-                 "/coscaas/auj4szh_t",
-                 "/coscaas/aus2sgh_t",
-                 "/coscaas/azh1szh",
-                 "/coscaas/azw2sgh_t",
-                 "/coscaas/bam3lr_t",
                  "/coscaas/buxiangyu_t",
                  "/coscaas/cae3wx_t",
                  "/coscaas/chaoyang_t",
@@ -54,6 +49,7 @@ def main():
         for d in date_list:
             try:
                 logging.info("公有云到专区" + d)
+                logging.info("=================================" + d)
                 data = findFiles(d)
                 logging.info("测试新增一行")
                 logging.info(str(data))
