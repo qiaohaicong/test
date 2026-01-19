@@ -2,18 +2,6 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-# 邮箱列表
-email_list = [
-    "haicongqiao@tencent.com",
-    "Mike.YU@cn.bosch.com"
-    # ...直到300个邮箱地址
-]
-
-# SMTP服务器配置
-smtp_server = "172.20.0.24"
-smtp_port = 25
-sender_email = "xc-wave3@mailing.bosch.com"
-
 # 邮件正文模板
 html_template = """
 <html lang="en">
