@@ -60,7 +60,7 @@ def main():
                 target = d.replace("coscaas","coscaas/back_up_delete")
                 mvcmd = "mv " + d + " " + target
                 subprocess.run(mvcmd, shell=True, check=True)
-
+                logging.info(target + "++++++++++++++++++++++" + mvcmd)
                 logging.info(target + "==============" + mvcmd)
             except Exception as e:
                 logging.error(f"Error: Failed to run commands. Error message: {e}")
