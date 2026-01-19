@@ -26,7 +26,7 @@ def setup_logging():
 
 def main():
     date_list = ["/coscaas/aai1wx_t",
-                 "/coscaas/acj5szh_ttttttttt",
+                 "/coscaas/acj5szh_dddddddddddd",
                  "/coscaas/agy3szh_t",
                  "/coscaas/aiz2sgh_t",
                  "/coscaas/ajg5szh_t",
